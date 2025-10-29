@@ -1,0 +1,5 @@
+numpy 
+pandas 
+scipy 
+torch 
+flwr[simulation]==1.8.0

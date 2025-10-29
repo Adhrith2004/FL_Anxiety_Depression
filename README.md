@@ -1,7 +1,3 @@
-# FL_Anxiety_Depression
-Federated learning model for privacy-preserving mental health prediction
-
-
 # Federated Multi-Task Learning for Anxiety and Negative Affect Prediction
 
 This is a Federated Learning (FL) system to predict mental health traits from physiological signals. The model is trained on the WESAD dataset.
