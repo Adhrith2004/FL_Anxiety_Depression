@@ -32,3 +32,15 @@ You must run this script **once** to process the raw WESAD data into a federated
 
 ```bash
 bash run_preprocessing.sh
+```
+
+### 3. Step 2: Run the FL Simulation
+This script starts the FL server and multiple clients in parallel to simulate the training process. The server will coordinate the training for the number of rounds specified in src/config.py.
+
+```bash
+
+bash run_simulation.sh
+```
+This will start a server and two clients (S2, S3) by default.
+
+To run with more clients, edit the CLIENTS variable in run_simulation.sh.
